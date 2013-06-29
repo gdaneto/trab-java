@@ -1,0 +1,205 @@
+import java.util.Scanner;
+
+public class Main {
+
+  public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in); // scanner minusculo é Texto
+													// de Entrada
+
+		// System.out.println("Entre com um número:");
+		//
+		// int numero = scanner.nextInt();
+		//
+		// System.out.println(numero);
+		//
+		// if (numero>0){
+		// System.out.println("numero maior que 0");
+		// }
+		// else {
+		// if (numero==0){
+		// System.out.println("Numero igual a 0");
+		// }
+		// else {
+		// System.out.println("Numero menor que 0");
+		// }
+		// }
+
+		// Exercício 1
+
+//		System.out.println("Digiter o ano de seu nascimento");
+//		int dataDeNascimento = scanner.nextInt();
+//		System.out.println(dataDeNascimento);
+//		System.out.println("Digite o ano atual");
+//		int anoAtual = scanner.nextInt();
+//		System.out.println(anoAtual);
+//		System.out.println();
+//		System.out.println("Sua idade nesse ano será de: " + (anoAtual - dataDeNascimento) + " anos");
+
+		// Exercício 2
+
+//		System.out.println("Informe o valor da despesa");
+//		float despeza = scanner.nextFloat();
+//		System.out.println();
+//		System.out.print("A comissão do garson será de: "+"R$" );
+//		System.out.printf("%.2f", despeza*0.10);
+//		System.out.println();
+		
+		// Exercício 3
+		
+//		System.out.print("Informe o número de homens na classe: ");
+//		int homens = scanner.nextInt();
+//		System.out.print("Informe o número de mulheres na classe: ");
+//		int mulheres = scanner.nextInt();
+//		int total = (mulheres + homens);
+//		System.out.println("Na classe existe:");
+//		System.out.print("Mulheres: ");
+//		System.out.println(((mulheres*100)/total)+"%");
+//		System.out.print("Homens: ");
+//		System.out.println(((homens*100)/total)+"%");
+		
+		// Exercício 4
+		
+//		System.out.println("Informe seu ano de Nascimento");
+//		int idade = scanner.nextInt();
+//		
+//		if (idade<=1995){
+//			System.out.println("Maior de Idade");
+//		} else{
+//			System.out.println("Menor de Idade");
+//		}
+		
+		// Exercício 5
+		
+//		System.out.print("Insira o valor de seu Salário Bruto: R$");
+//		double salarioBruto = scanner.nextDouble();
+//		System.out.print("Informe o valor de Descontos no Salário: R$");
+//		double descontoSalario = scanner.nextDouble();
+//		System.out.print("Informe o valor que deseja de Impréstimo: R$");
+//		double valorImprestimo = scanner.nextDouble();
+//		double salarioLiquido = (salarioBruto-descontoSalario);
+//		double limite = 0.30;
+//		System.out.println();
+//		if (valorImprestimo<= salarioLiquido*limite){
+//			System.out.println("Voçê pode retirar um emprestimo");
+//		}
+//		else {
+//			System.out.println("Não pode retirar emprestimo");
+//		}
+		
+		// Exercício 6
+		
+//		System.out.println("Informe a 1ª nota: ");
+//		float nota1 = scanner.nextFloat();
+//		System.out.println("Informe a 1ª nota: ");
+//		float nota2 = scanner.nextFloat();
+//		System.out.println("Informe a 1ª nota: ");
+//		float nota3 = scanner.nextFloat();
+//		System.out.println("Notas Informadas: "+ nota1 + ", "+ nota2 + ", "+ nota3);
+//		float media = (nota1+nota2+nota3)/3;
+//		System.out.println("Média"+media);
+//		
+//		if (media>=7){
+//			System.out.println("Aprovado");
+//		}
+//		else {
+//			if ((media<7) && media>=5){
+//				System.out.println("Recuperação");
+//			}
+//			else {
+//				System.out.println("Reprovado");
+//			}
+//		}
+		
+		// Exercício 7
+		
+//		System.out.println("Informe a 1ª nota: ");
+//		float nota1 = scanner.nextFloat();
+//		System.out.println("Informe a 1ª nota: ");
+//		float nota2 = scanner.nextFloat();
+//		System.out.println("Informe a 1ª nota: ");
+//		float nota3 = scanner.nextFloat();
+//		System.out.println("Notas Informadas: "+ nota1 + ", "+ nota2 + ", "+ nota3);
+//		float media = (nota1+nota2+nota3)/3;
+//		System.out.println("Média");
+//		System.out.printf("%.2f", media);
+//		System.out.println();
+//		if (media>=7){
+//			System.out.println("Aprovado");
+//		}
+//		else {
+//			if ((media<7) && media>=5){
+//				System.out.println("Recuperação");
+//				System.out.println("Informe a Nota da Prova Final");
+//				float provaFinal = scanner.nextFloat();
+//				if (provaFinal>=5){ 
+//					System.out.println("Aprovado por Prova Final");
+//				}
+//				else {
+//					System.out.println("Melhor sorte ano que vem");
+//				}
+//			}
+//			else {
+//				System.out.println("Reprovado");
+//			}
+//		}
+		
+		// Exercício 8
+		
+//		System.out.print("Insira um mês: ");
+//		String mes = scanner.nextLine();
+//		
+//		if (mes.equalsIgnoreCase("janeiro")){
+//			System.out.println("Número do mês: "+1);
+//		}
+//		if (mes.equalsIgnoreCase("fevereiro")){
+//			System.out.println("Número do mês: "+2);
+//		}
+//		if (mes.equalsIgnoreCase("março")){
+//			System.out.println("Número do mês: "+3);
+//		}
+//		if (mes.equalsIgnoreCase("marco")){
+//			System.out.println("Número do mês: "+3);
+//		}
+//		if (mes.equalsIgnoreCase("abril")){
+//			System.out.println("Número do mês: "+4);
+//		}
+//		if (mes.equalsIgnoreCase("maio")){
+//			System.out.println("Número do mês: "+5);
+//		}
+//		if (mes.equalsIgnoreCase("junho")){
+//			System.out.println("Número do mês: "+6);
+//		}
+//		if (mes.equalsIgnoreCase("julho")){
+//			System.out.println("Número do mês: "+7);
+//		}
+//		if (mes.equalsIgnoreCase("agosto")){
+//			System.out.println("Número do mês: "+8);
+//		}
+//		if (mes.equalsIgnoreCase("setembro")){
+//			System.out.println("Número do mês: "+9);
+//		}
+//		if (mes.equalsIgnoreCase("outubro")){
+//			System.out.println("Número do mês: "+10);
+//		}
+//		if (mes.equalsIgnoreCase("novembro")){
+//			System.out.println("Número do mês: "+11);
+//		}
+//		if (mes.equalsIgnoreCase("dezembro")){
+//			System.out.println("Número do mês: "+12);
+//		}
+		
+		// Exercício 9
+		
+		
+		
+		
+		
+		
+		
+		
+			// nao apagar
+		}				
+	}
+
+
